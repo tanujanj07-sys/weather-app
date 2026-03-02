@@ -24,8 +24,7 @@ Weather API
 
 
 How to Run
-Clone the repository
-tanujawheater.netlify.app
+Clone the repository :  tanujawheater.netlify.app
 Open index.html in your browser
 Enter a city name to view weather details
 
