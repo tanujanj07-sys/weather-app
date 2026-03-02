@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <h2>🌦 Weather Forecast</h2>
+
+    <!-- City Dropdown -->
+    <select id="city">
+        <option value="">Select City</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Pune">Pune</option>
+        <option value="Nagpur">Nagpur</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Kolkata">Kolkata</option>
+        <option value="Kolhapur">Kolhapur</option>
+        <option value="Nanded-Waghala">Nanded-Waghala</option>
+    </select>
+
+    <button onclick="getWeather()">Check Weather</button>
+
+    <!-- Weather Display -->
+    <div class="weather">
+        <h3 id="location">--</h3>
+        <p id="temperature">🌡 Temperature: -- °C</p>
+        <p id="feels">🤒 Feels Like: -- °C</p>
+        <p id="condition">☁ Condition: --</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

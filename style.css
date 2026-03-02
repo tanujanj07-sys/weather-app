@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #2193b0, #6dd5ed);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.app {
+    background: white;
+    width: 90%;
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    background: #2193b0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #176d82;
+}
+
+.weather {
+    margin-top: 15px;
+    font-size: 16px;
+}
